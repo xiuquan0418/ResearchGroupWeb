@@ -1,0 +1,18 @@
+- title: "Andrew Ng's Machine Learning"
+  image: ML_Andrew.png
+  description: Master fundamental AI concepts and develop practical machine learning skills in the beginner-friendly, 3-course program by AI visionary Andrew Ng
+  authors: Andrew Ng
+  link:
+    url: https://www.coursera.org/specializations/machine-learning-introduction
+    display: Machine Learning Specialization
+  highlight: 1
+
+- title: "Bioinformatics Training"
+  image: HBC_Bioinfo.png
+  description: The team provides training to help students become comfortable with using bioinformatics tools to analyse high-throughput sequencing (HTS) data.
+  authors: the Harvard Chan Bioinformatics Core
+  link:
+    url: https://hbctraining.github.io/main/#basic-data-skills
+    display: HBC Training Program
+  highlight: 1
+

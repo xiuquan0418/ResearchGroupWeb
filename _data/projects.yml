@@ -1,0 +1,25 @@
+- title: "Project 1: Detection of DNA Methylation"
+  image: Big_Bird.png
+  description: We will develop a transformer-based machine learning tool for the direct detection of DNA methylation and evaluate its performance in diverse biological systems and diseases. Leveraging the signal-level information provided by Nanopore long-read sequencing, our novel transformer architecture will accurately detect DNA methylation patterns, including rare or novel modifications like 5hmC. The performance of our approach will be compared to existing methods for detecting DNA methylation using independent datasets.
+  link:
+    url: https://github.com/xiuquan0418/Project_Transformer-based_Methylation_Detection.git
+    display: Github Repository
+  highlight: 1
+
+- title: "Project 2: RNA Velocity Estimation"
+  image: RNA_Velocity.png
+  description: We will develop a computational toolbox that accurately estimates RNA velocity from Nanopore long-read RNA sequencing data. Leveraging the unique advantages of long-read sequencing, including rich signal-level information, our toolbox will model cell state dynamics based on RNA velocity, spliced/unspliced RNA abundances, latent times, and transcriptional states. The performance of our tool will be rigorously validated by comparing it to existing methods.
+  link:
+    url: https://github.com/xiuquan0418/Long_Read_RNA_Velocity.git
+    display: Github Repository
+  highlight: 1
+
+- title: "Project 3: RNA Velocity and DNA Methylation: Integrated Analysis"
+  image: RNA_Velocity01.png
+  description: We will investigate the relationship between RNA velocity trajectories and DNA methylation patterns across diverse biological systems and diseases. Our computational tools will integrate RNA velocity and DNA methylation data to explore the interplay between these two regulatory mechanisms across different cell types and disease conditions.
+  link:
+    url: https://github.com/xiuquan0418/Long_Read_RNA_Velocity.git
+    display: Github Repository
+  highlight: 1
+
+

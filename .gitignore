@@ -1,0 +1,71 @@
+# Ignore files starting with ._
+._*
+
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages #
+############
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._.DS_Store
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE and editor specific #
+##########################
+*.swp
+*.swo
+*.swn
+*.bak
+*~
+*.tmp
+*.temp
+*.sublime*
+*.idea/
+.vscode/
+
+# Node specific (if you're using Node.js) #
+###########################################
+node_modules/
+package-lock.json
+
+# Python specific (if you're using Python) #
+############################################
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+__pycache__/
+
+# Other #
+#########
+# Add other patterns or specific files/folders you want to ignore
+
+

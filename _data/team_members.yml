@@ -1,0 +1,36 @@
+- name: Xiuquan Wang
+  photo: Xiuquan.png
+  info: Principle Investigator, Associate Professor
+  email: xwang@tougaloo.edu
+  bio: Dr. Wang's research mainly focus on computational biology, machine learning & deep learning, software & algorithm development, single cell sequencing data analysis
+
+
+- name: Dwight Ross
+  photo: Dwight_Ross.jpeg
+  info: Undergraduate, Senior in Mathematics
+  email: dross2@student.tougaloo.edu
+  bio:
+
+- name: Marlon Jerome Kidd
+  photo: Marlon_Kidd.jpg
+  info: Undergraduate, Junior in Computer Science
+  email: mkidd@student.tougaloo.edu
+  bio: 
+
+- name: Dania M Zein
+  photo: Dania_Zein.jpeg
+  info: Undergraduate, Sophomore in Mathematics and Computer Science
+  email: dzein@student.tougaloo.edu
+  bio: 
+
+- name: Raven Lee
+  photo: Raven_Lee.jpg
+  info: Undergraduate, sophomore in Mathematics
+  email: rlee@student.tougaloo.edu
+  bio: 
+
+- name: Fredrick Bryce White
+  photo: Fredrick_White.jpeg
+  info: Undergraduate, sophomore in Computer Science
+  email: fwhite1@student.tougaloo.edu
+  bio: 
