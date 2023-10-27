@@ -65,8 +65,8 @@ Presenter: Dwight Ross (2nd place)
 
 ### Certifications
 <figure class="fourth">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/Certificates/ML_Certificate_Dania_Zein.jpg" style="width: 290px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/Certificates/ML_Certificate_Dwight_Ross.jpg" style="width: 290px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/Certificates/Award_Certificate_Dwight_Ross.jpg" style="width: 310px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/Certificates/Award_Certificate_Dania_Zein.jpg" style="width: 310px">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/Certificates/ML_Certificate_Dania_Zein.jpg" style="width: 300px">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/Certificates/ML_Certificate_Dwight_Ross.jpg" style="width: 300px">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/Certificates/Award_Certificate_Dwight_Ross.jpg" style="width: 300px">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/Certificates/Award_Certificate_Dania_Zein.jpg" style="width: 300px">
 </figure>
