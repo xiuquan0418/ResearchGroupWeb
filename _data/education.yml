@@ -16,11 +16,11 @@
     display: HBC Training Program
   highlight: 1
 
-- title: "Bioinformatics Training"
-  image: HBC_Bioinfo.png
-  description: The team provides training to help students become comfortable with using bioinformatics tools to analyse high-throughput sequencing (HTS) data.
+- title: "Github Collaboration Training"
+  image: github.jpg
+  description: Get comfortable with a Collaborative workflow in the GitHub interface. Practice adding resources to your repo, working with issues and lables, forking and branching, writing commit messages, making and reviewing pull requests, and merging changes.
   authors: X. Wang
   link:
-    url: https://hbctraining.github.io/main/#basic-data-skills
-    display: HBC Training Program
+    url: "{{ site.url }}{{ site.baseurl }}/Openings.html"
+    display: TCRDF Research & Innovation
   highlight: 1
