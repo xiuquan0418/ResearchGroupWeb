@@ -6,67 +6,53 @@ sitemap: false
 permalink: /GithubTutorials.html
 ---
 
-# **NSF HBCU UP RIA Undergraduate Research Fellowship**
-## Guidelines, Expectations, and Objectives
+# **GitHub for Collaboration On Open Projects**
 
 ---
 
-The NSF HBCU UP RIA Undergraduate Research Fellowship is designed to promote and support research endeavors of undergraduate students. This initiative strives to foster a research culture and enrich the academic experience by involving students in meaningful research projects.
+Get comfortable with a Collaborative workflow in the GitHub interface. Practice adding resources to your repo, working with issues and lables, forking and branching, writing commit messages, making and reviewing pull requests, and merging changes. You'll also practice good communication with contributors.
+
+- **Duration:** 45 to 60 minutes
+- **Level:** Intermediate
 
 ---
 
 ### **Guidelines**
 
-1. **Eligibility**
-   - The award is open to all undergraduate students currently enrolled in Tougaloo College.
-   - Priority will be given to those in their sophomore or junior year with a strong academic standing.
+1. **Forma:** This is designed as a in-person, facilitated workshop with pairs of learners working together on each other's repositories. It could also be done online. 
 
-2. **Application Process**
-   - Submission of a research proposal (max. 2 pages) detailing the aims, methodology, and expected outcomes of the research.
-   - Letter of recommendation from a faculty member familiar with the student's academic performance.
-   - Updated academic transcript.
+2. **Target Audience:** Project Leads and Contributors 
 
-3. **Duration**
-   - The fellowship lasts for one academic year, starting from the award date.
-
-4. **Funding**
-   - A stipend will be provided to the selected recipients, intended to cover research-related expenses and a modest honorarium for their efforts.
+3. **Materials**
+   - Two people with projects already hosted on GitHub
+   - Computers to work on
+   - An Internet connection to access the GitHub site
 
 ---
 
-### **Expectations**
+### **Introduction**
 
-1. **Commitment**
-   - Selected students should commit a predefined number of hours per week for their research project.
+ GitHub is a web-based interface for version control, a way of keeping track of changes made to a collection of working documents. GitHub provides a structure and space for communicating about collaborative work on open projects. With bit of set-up, and a good workflow, you can make your project accessible and transparent, and create a respectful and productive working environment for your collaborators.
 
-2. **Mentorship**
-   - Each awardee is expected to work under the guidance of a faculty mentor.
-   - Regular meetings with the mentor are advised.
+ This exercise walks you through a workflow for collaboration on open projects, and demonstrates good communication with contributors. You'll need a partner for this exercise. And you'll each play two roles: you'll act as "project lead" on your own project, and "contributor" on your partner's project, as desginated in the steps below.
 
-3. **Reporting**
-   - A midterm progress report and a final report, summarizing the findings and achievements during the fellowship period, must be submitted.
-
-4. **Presentation**
-   - Recipients may be asked to present their research findings at an annual research symposium or a similar platform.
-
-5. **Publication**
-   - Awardees are encouraged to aim for publication, whether in internal university journals, conferences, or external scholarly journals.
+ Before you start, provide your partner with a link to your repository. Your repo should look something like this (with your own content, of course). 
 
 ---
 
-### **Objectives**
+### **Steps to Complete**
 
-1. **Skill Development**
-   - Enhance the student's skills in research planning, data collection, analysis, and presentation.
+1. **Add Files**
+   - As project lead: add any new files you've created to your repo (readme.md, roadmap.md, contributing.md). Give the file a name, and the .md extension so you can use markdown for formatting. 
 
-2. **In-depth Understanding**
-   - Provide students an opportunity to delve deeply into a specific area of interest, fostering a deeper understanding and appreciation of the subject.
+2. **Make a Label**
+   - As project lead: Make a new label. Click the "Issues" tab, then look for the labels tab, just to the right of the "filter" box. Add a label called "good first bugs." 
 
-3. **Mentorship**
-   - Build a mentor-mentee relationship between faculty and students, facilitating academic growth and career guidance.
+3. **Make An Issue**
+   - As project lead: create an issue in your own repo to document a "good first bug". A good first bug is something simple that a new contributor can work on, to try out contribution and get comfortable with the workflow. It's work that's useful to the project but relatively easy... not so difficult as to be overwhelming or discouraging for someone new to your project. An example of a good first bug for this exercise: fix a typo in the readme, add a badge, add a science fox, etc. 
 
-4. **Publication and Recognition**
-   - Foster an environment where student research is recognized, appreciated, and potentially published, boosting the academic profile of both the student and the institution.
+4. **Comment On An Issue**
+   - As contributor: Go to your partner's repo, find the "Good First Bug" issue. (Click on the issue button to see all the issues.)
 
 ---
 
