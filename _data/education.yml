@@ -21,6 +21,6 @@
   description: Get comfortable with a Collaborative workflow in the GitHub interface. Practice adding resources to your repo, working with issues and lables, forking and branching, writing commit messages, making and reviewing pull requests, and merging changes.
   authors: X. Wang
   link:
-    url: "{{ site.url }}{{ site.baseurl }}/Openings.html"
+    url: "/ResearchGroupWeb/GithubTutorials.html"
     display: TCRDF Research & Innovation
   highlight: 1
