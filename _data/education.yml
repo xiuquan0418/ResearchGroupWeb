@@ -16,3 +16,11 @@
     display: HBC Training Program
   highlight: 1
 
+- title: "Bioinformatics Training"
+  image: HBC_Bioinfo.png
+  description: The team provides training to help students become comfortable with using bioinformatics tools to analyse high-throughput sequencing (HTS) data.
+  authors: X. Wang
+  link:
+    url: https://hbctraining.github.io/main/#basic-data-skills
+    display: HBC Training Program
+  highlight: 1
