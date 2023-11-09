@@ -6,13 +6,10 @@ sitemap: false
 permalink: /GithubTutorials.html
 ---
 
-# ** Collaboration On Github**
+# **Collaboration On Github**
 
 ---
 ## Topic One: Version Control (Git)
- - **Authors**: Xiuquan Wang
-
-### Preface: ###
 
 Version control is a system that manages changes to a file or files.
 These changes are kept as logs in a history, with detailed information
@@ -126,11 +123,10 @@ any questions, please check out
 *literally* any question on or about Git!!  Or just google it! Google
 usually shows answers from StackOverflow.
 
-## **topic Two**: Collaborating on GitHub ##
+## topic Two: Collaborating on GitHub ##
 
 #### QUESTIONS TO ASK PARTICIPANTS TO GAUGE KNOWLEDGE LEVEL
 1. How familiar are you with the unix command line? How often do you work with it?
-2. Have you used git before?
 2. On a scale of 1-5 (1=novice/beginner, 5=expert) what kind of git user are you?  (how often do you use git in your work? once a week, once a day, once a month)
 3. Have you used GitHub before?
 4. Have you collaborated on a project on GitHub before?
