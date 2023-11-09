@@ -10,50 +10,152 @@ permalink: /GithubTutorials.html
 
 ---
 
-Get comfortable with a Collaborative workflow in the GitHub interface. Practice adding resources to your repo, working with issues and lables, forking and branching, writing commit messages, making and reviewing pull requests, and merging changes. You'll also practice good communication with contributors.
+ - **Authors**: Xiuquan Wang
+ - **Lesson topic**: Version control (Git)
 
-- **Duration:** 45 to 60 minutes
-- **Level:** Intermediate
+## Preface: ##
 
----
+Version control is a system that manages changes to a file or files.
+These changes are kept as logs in a history, with detailed information
+on what file(s) was changed, what was changed within the file, who
+changed it, and a message on why the change was made.  This is
+extremely useful, especially when working in teams or for yourself 6
+months in the future (because you *will* forget things)!
 
-### **Guidelines**
+To understand how incredibly powerful version control is, think about
+these questions: How many files of different versions of a manuscript
+or thesis do you have laying around after getting feedback from your
+supervisor or co-authors? Have you ever wanted to experiment with your
+code or your manuscript and need to make a new file so that the
+original is not touched? Have you ever deleted something and wish you
+hadn't? Have you ever forgotten what you were doing on a project?  All
+these problems are fixed by using version control (git)!
 
-1. **Forma:** This is designed as a in-person, facilitated workshop with pairs of learners working together on each other's repositories. It could also be done online. 
+We are going to go over a typical workflow.  This could be either a
+solo workflow or a collaborative workflow.
 
-2. **Target Audience:** Project Leads and Contributors 
+## Checklist: ##
 
-3. **Materials**
-   - Two people with projects already hosted on GitHub
-   - Computers to work on
-   - An Internet connection to access the GitHub site
+* Configure your git
+* Create a folder and create a git repository (`git init`; the saved
+  history of the folder and files) in that folder
+* Create a file and track it with git (`git add`), saving it to the
+  history (`git commit`)
+* Write a short bio in the file
+* Check what's going on in the folder (`git status`)
+* Compare the file with the one in the history (`git diff`)
+* Add the tracked file to the 'staging' area (`git add`; this is an
+  area *before* going into the history)
+* Save the file in the history (`git commit`)
+* Look into your history (`git log`)
 
----
+(If we have time):
 
-### **Introduction**
+* Create a GitHub account and create a repository
+* Set the URL of the new GitHub repository to your repository on your
+  computer (`git remote`; the command is usually provided from GitHub)
+* Upload your repository on your computer (called local repository)
+  up to your GitHub repository (called the remote repository; use `git
+  push`)
+* Download from the remote to the local repository (`git pull`)
 
- GitHub is a web-based interface for version control, a way of keeping track of changes made to a collection of working documents. GitHub provides a structure and space for communicating about collaborative work on open projects. With bit of set-up, and a good workflow, you can make your project accessible and transparent, and create a respectful and productive working environment for your collaborators.
+**Tips**:
 
- This exercise walks you through a workflow for collaboration on open projects, and demonstrates good communication with contributors. You'll need a partner for this exercise. And you'll each play two roles: you'll act as "project lead" on your own project, and "contributor" on your partner's project, as desginated in the steps below.
+* Make use of TAB-completion in the terminal!
+* Up arrow on the terminal goes to the previous command you entered.
 
- Before you start, provide your partner with a link to your repository. Your repo should look something like this (with your own content, of course). 
+## Lesson topics and commands ##
 
----
+For configuring your git, follow the "Initial setup" I've put
+together:
 
-### **Steps to Complete**
+* http://codeasmanuscript.org/lessons/git/cheatsheet/
 
-1. **Add Files**
-   - As project lead: add any new files you've created to your repo (readme.md, roadmap.md, contributing.md). Give the file a name, and the .md extension so you can use markdown for formatting. 
+Create a folder and create a git repository (which is the stored
+history) in that folder. (Note: `##` is a comment, not a command).
 
-2. **Make a Label**
-   - As project lead: Make a new label. Click the "Issues" tab, then look for the labels tab, just to the right of the "filter" box. Add a label called "good first bugs." 
+    cd ~/Desktop ## Move to your desktop
+    mkdir playing ## Create a folder (aka directory)
+    cd playing
+    git init ## Create the repository (init = initialize)
 
-3. **Make An Issue**
-   - As project lead: create an issue in your own repo to document a "good first bug". A good first bug is something simple that a new contributor can work on, to try out contribution and get comfortable with the workflow. It's work that's useful to the project but relatively easy... not so difficult as to be overwhelming or discouraging for someone new to your project. An example of a good first bug for this exercise: fix a typo in the readme, add a badge, add a science fox, etc. 
+Now, create a file, get git to track it, and save it to the history.
 
-4. **Comment On An Issue**
-   - As contributor: Go to your partner's repo, find the "Good First Bug" issue. (Click on the issue button to see all the issues.)
+    touch bio.txt ## Command to create a file called bio.txt
+    ls ## Check that you created the file, ls = list files
+    git add bio.txt ## Track the file
+    ## Save the file to the history with a message (-m)
+    git commit -m "Initial commit"
 
----
+Now, open the `bio.txt` file and add:
 
-All fellowship recipients must adhere to the institution's code of conduct, academic integrity policies,
+* Your name
+* Your program and year
+* Your progamming language/statistical language of choice
+
+Then:
+
+    git status ## Check the activity
+    git diff bio.txt ## Compare to the one in the history
+    git add bio.txt ## This sends it to the staging area
+    git commit -m "Added my bio" ## This sends it to the history
+
+For a description on what the different stages are (working directory,
+staging area, and committed history) see the below links:
+
+* Description: https://git-scm.com/book/en/v2/Getting-Started-Git-Basics
+* Image: https://git-scm.com/book/en/v2/book/01-introduction/images/areas.png
+
+Then, to see what has happened in your history:
+
+    git log ## View the log of your history
+
+*If we have time*, we'll create a GitHub account, create a GitHub
+repository (a remote repository), and upload the repository on your
+computer (called the local repository) onto the remote repository
+(GitHub):
+
+    git remote add origin https://github.com/yourusername/playing.git
+    git push origin master
+    git pull
+
+Now you know about a typical workflow!  There are **lots** of commands
+and options in git, you really can do almost anything.  *However*,
+these are the basic tools that are used most frequently.  If you have
+any questions, please check out
+[StackOverflow](https://stackoverflow.com/questions/tagged/git) for
+*literally* any question on or about Git!!  Or just google it! Google
+usually shows answers from StackOverflow.
+
+# Resources: #
+
+## Glossary: ##
+
+* `cd` - change directory
+* directory - the same thing as a folder
+* `ls` - list the files and folders in a folder
+* `touch` - create an empty file
+* repository - the saved history of a folder and files, used by git.
+* `init` - start or initialize a git repository
+* `add` - put a file into the staging area, so that git starts
+  tracking it
+* staging/index area - where files are stored before going into the
+  history
+* `commit` - send files in the staging/index area into the history
+  (the git repository)
+* `status` - check the status of the folder and the git repository
+* `diff` - compare a file to the a file in the history
+* `log` - view the commit history in the git repository
+
+## Links: ##
+
+Here are a few great resources (excluding StackOverflow) to use if you
+ever need help:
+
+* [Hands-on tutorial, with web-based terminal](https://try.github.io/levels/1/challenges/1)
+* [Official git documentation](https://git-scm.com/doc)
+* [Simpler first-steps guide](https://rogerdudler.github.io/git-guide/)
+* [Reference pages for all git commands](http://gitref.org/)
+* [Interactive, visual tutorial on branching](https://pcottle.github.io/learnGitBranching/)
+
+
