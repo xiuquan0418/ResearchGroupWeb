@@ -32,6 +32,8 @@ solo workflow or a collaborative workflow.
 
 ### Checklist: ###
 
+Git:
+
 * Configure your git
 * Create a folder and create a git repository (`git init`; the saved
   history of the folder and files) in that folder
@@ -45,7 +47,7 @@ solo workflow or a collaborative workflow.
 * Save the file in the history (`git commit`)
 * Look into your history (`git log`)
 
-(If we have time):
+Github:
 
 * Create a GitHub account and create a repository
 * Set the URL of the new GitHub repository to your repository on your
@@ -61,11 +63,6 @@ solo workflow or a collaborative workflow.
 * Up arrow on the terminal goes to the previous command you entered.
 
 ### Lesson topics and commands ###
-
-For configuring your git, follow the "Initial setup" I've put
-together:
-
-* http://codeasmanuscript.org/lessons/git/cheatsheet/
 
 Create a folder and create a git repository (which is the stored
 history) in that folder. (Note: `##` is a comment, not a command).
@@ -106,7 +103,7 @@ Then, to see what has happened in your history:
 
     git log ## View the log of your history
 
-*If we have time*, we'll create a GitHub account, create a GitHub
+*Next*, we'll create a GitHub account, create a GitHub
 repository (a remote repository), and upload the repository on your
 computer (called the local repository) onto the remote repository
 (GitHub):
@@ -125,30 +122,17 @@ usually shows answers from StackOverflow.
 
 ## topic Two: Collaborating on GitHub ##
 
-#### QUESTIONS TO ASK PARTICIPANTS TO GAUGE KNOWLEDGE LEVEL
-1. How familiar are you with the unix command line? How often do you work with it?
-2. On a scale of 1-5 (1=novice/beginner, 5=expert) what kind of git user are you?  (how often do you use git in your work? once a week, once a day, once a month)
-3. Have you used GitHub before?
-4. Have you collaborated on a project on GitHub before?
-
 ### Git vs GitHub
 #### Git
 - Git is the command line version control system (VCS) software which works on your local computer.
-- Git was created by Linus Torvalds in 2005 for development of the Linux kernel, with other kernel developers contributing to its initial development.
 - You need Git to use GitHub. You can use Git locally without GitHub.
 
 #### GitHub
-- GitHub is an internet hosting service for git repositories. Public repos are free; private repos are paid.
+- GitHub is an internet hosting service for git repositories. Public repos are free; private repos are also free but come with certain limitations. For access to additional features, a monthly subscription fee is required..
 - As a shared space for repos, it allows you to do collaborative work.
 
 
-### Two Common Collaborative Work Flows
-#### Shared Repository Model
-- For small projects where you are basically in the same physical space (e.g. lab with offices near each other).
-- Be careful! You are cloning the main repository.
-- Everyone has push and pull access to the central repo, so be careful and:
-  - Never commit to the master directly.
-  - Always do your work on a different branch from master.
+### Common Collaborative Work Flows
 
 #### Basic Shared Repository Workflow
 - update your local repo with `git pull origin master`,
@@ -163,7 +147,7 @@ usually shows answers from StackOverflow.
 
 
 #### Fork and Pull Model
-- This is the model used by U of T Coders on its own website and repos.
+- This is the model used by Dr. Wang on its own website and repos.
 - The "owner"/"Project Leader" of the upstream repo assigns rights to "Collaborators"
 - Collaborators do not have push access to main (upstream) repo
 - Project Lead accepts Pull Requests (PRs) from collaborators, reviews them, then merges them into main repo.
@@ -181,7 +165,7 @@ Term | Description
 Origin (repo) | Your remote repo (on Github); it is the "origin" for your local copy. Either it is a repo you created yourself or it is a fork of someone else's GitHub repo.
 Upstream (repo)| The main repo (on GitHub) from which you forked your GiHub repo.
 Local (repo) | The repo on your local computer.
-Master | The main branch (version) of your repo.
+Main/Master | The main branch (version) of your repo.
 
 
 #### Basic Commands/Actions
@@ -267,12 +251,11 @@ Download (pull) Collaborators changes to Owner's local repo:
 ---------------------------------  
 ## Exercise 2
 ### Dealing with Merge Conflicts
-This section is based on the SWC Git Novice lesson https://swcarpentry.github.io/git-novice/09-conflict/  
 
 When two or more people work on the same files, conflicts are bound to occur. Version control will help notify us when there are conflicts. It will be up to the humans to sort out which changes to retain.  
 
 The file "tenlines.txt" currently looks like this:  
-```$ cat tenlinestxt```  
+```$ cat tenlines.txt```  
 
 Let's say **Person A** adds a line to the file and review:  
 ```$ atom tenlines.txt```  
@@ -337,15 +320,15 @@ https://guides.github.com/activities/hello-world/
 #### A. Create a Remote Repo in your GitHub Account
 
   1. In URC, click **+**, then select **New repository**
-  2. Name your repository ```Kathy's Project```.
+  2. Name your repository ```Your Name's Project```.
   3. Write a short description.
   4. Select **Initialize this repository with a README**.
 
 #### B. Create a Branch
 
-1. Click drop down at top of file list that says **branch: master**.
+1. Click drop down at top of file list that says **branch: main**.
 2. Type a branch name, `readme-edits`, into the new branch text box.
-3. Select the blue **Create branch** box or hit "Enter" on your keyboard. Notice you are now on the code view of your `readme-edits` branch, which is a copy of `master`.
+3. Select the blue **Create branch** box or hit "Enter" on your keyboard. Notice you are now on the code view of your `readme-edits` branch, which is a copy of `main`.
 
 #### C. Make and commit changes
 You are now on your `readme-edits` branch.  
@@ -376,15 +359,13 @@ You will merge your  `readme-edits` branch into your `master` branch.
 
 ## Exercise 4
 ### Two Person Practise via GitHub GUI  
-This exercise is based on the Mozilla Science WOW lesson on GitHub for Collaborating on Open Projects   
-http://mozillascience.github.io/working-open-workshop/github_for_collaboration/  
 
 One of you is the Project Lead. The other will be the Contributor.
 
 #### A. Project Lead: Create a Remote Repo in your GitHub Account
 
   1. In URC, click **+**, then select **New repository**
-  2. Name your repository ```Kathy's Project```.
+  2. Name your repository ```Your Name's Project```.
   3. Write a short description.
   4. Select **Initialize this repository with a README**.\
   5. Give your partner the URL to your repo.
