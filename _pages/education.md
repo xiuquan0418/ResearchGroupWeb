@@ -71,6 +71,5 @@ Presenter: Dwight Ross (2nd place)
   <img src="{{ site.url }}{{ site.baseurl }}/images/Certificates/ML_Certificate_Dania_Zein_Advanced.jpg" style="width: 290px">
   <img src="{{ site.url }}{{ site.baseurl }}/images/Certificates/ML_Certificate_Dwight_Ross.jpg" style="width: 290px">
   <img src="{{ site.url }}{{ site.baseurl }}/images/Certificates/ML_Certificate_Dwight_Ross_Advanced.jpg" style="width: 290px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/Certificates/
-  ML_Certificate_Raven_Li.jpg" style="width: 290px">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/Certificates/ML_Certificate_Raven_Lee.jpg" style="width: 290px">
 </figure>
